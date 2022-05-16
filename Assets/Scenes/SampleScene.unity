@@ -13659,6 +13659,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1228866858}
     m_Modifications:
+    - target: {fileID: 3514327107004924981, guid: b98bd8b075c7afd4f9ebb5427bc93253,
+        type: 3}
+      propertyPath: InitialModule.startSizeY.scalar
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 3514699277297386295, guid: b98bd8b075c7afd4f9ebb5427bc93253,
         type: 3}
       propertyPath: lengthInSec
@@ -13668,6 +13673,21 @@ PrefabInstance:
         type: 3}
       propertyPath: InitialModule.startSizeZ.scalar
       value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3514712098758976849, guid: b98bd8b075c7afd4f9ebb5427bc93253,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3514712098758976849, guid: b98bd8b075c7afd4f9ebb5427bc93253,
+        type: 3}
+      propertyPath: InitialModule.startSizeY.scalar
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3514712098758976849, guid: b98bd8b075c7afd4f9ebb5427bc93253,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 3514869408197075709, guid: b98bd8b075c7afd4f9ebb5427bc93253,
         type: 3}
@@ -13693,6 +13713,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PortalRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 3603247701708676469, guid: b98bd8b075c7afd4f9ebb5427bc93253,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3604156305154269095, guid: b98bd8b075c7afd4f9ebb5427bc93253,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3605558850417640221, guid: b98bd8b075c7afd4f9ebb5427bc93253,
         type: 3}
