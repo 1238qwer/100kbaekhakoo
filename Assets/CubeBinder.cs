@@ -15,10 +15,15 @@ public class CubeBinder : MonoBehaviour
         //GameObject temp = Instantiate(particle, gameObjects[0].transform);
         foreach (var item in gameObjects) {
             if (item.gameObject.activeSelf && item != gameObject.transform) {
-                GameObject temp = Instantiate(particle);
+                int randInt = Random.Range(0, 10);
 
-                temp.transform.parent = item.transform;
-                temp.transform.localPosition = Vector3.zero;
+                if (randInt == 5) {
+                    GameObject temp = Instantiate(particle);
+
+                    temp.transform.parent = item.transform;
+                    temp.transform.localPosition = Vector3.zero;
+                }
+
                 //temp.transform.position = item.transform.position;
             }
         }
