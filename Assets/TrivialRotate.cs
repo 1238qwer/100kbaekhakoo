@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.VR;
+using UnityEditorInternal.VR;
 
 public class TrivialRotate : MonoBehaviour
 {
@@ -12,7 +14,7 @@ public class TrivialRotate : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        //VREditor.GetVREnabledDevicesOnTargetGroup
     }
 
     // Update is called once per frame
